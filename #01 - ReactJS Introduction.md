@@ -46,6 +46,14 @@ Virtual DOM là một bản sao của DOM thực sự được React sử dụng
 
 JSX (JavaScript XML) là một phần mở rộng cú pháp của JavaScript cho phép viết mã HTML tương tự như cú pháp XML trong mã JavaScript. JSX giúp kết hợp mã JavaScript và mã HTML trong cùng một file, giúp việc tạo và quản lý các component dễ dàng hơn.
 
+Ví dụ về viết JSX:
+
+```jsx
+import React from 'react';
+
+const element = <h1>Hello, JSX!</h1>;
+Trong ví dụ trên, chúng ta đã sử dụng JSX để tạo một phần tử React <h1>Hello, JSX!</h1>. JSX sẽ được biên dịch thành mã JavaScript thông qua Babel để sử dụng trong ứng dụng React.
+```
 ### Cấu trúc thư mục
 
 - **Thư mục Assets:** Thư mục này chứa các tệp hình ảnh và tệp CSS để sử dụng trong dự án. Chúng ta có thể lưu trữ các kiểu CSS toàn cục ở đây.
