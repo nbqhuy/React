@@ -36,7 +36,7 @@ const element = <h1>Hello, React!</h1>;
 
 ReactDOM.render(element, document.getElementById('root'));
 ```
-Trong ví dụ trên, chúng ta đã tạo một phần tử React `<h1>Hello, React!</h1>` và gắn kết nó vào nút có id là root trong DOM.
+Trong ví dụ trên, chúng ta đã tạo một phần tử React ```<h1>Hello, React!</h1>``` và gắn kết nó vào nút có id là root trong DOM.
 
 #### Virtual DOM (DOM ảo)
 
