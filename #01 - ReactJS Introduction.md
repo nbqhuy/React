@@ -221,7 +221,7 @@ Trong ví dụ trên, chúng ta đã tạo một Functional Component đơn gi�
 Trong React, có một số cách để sử dụng CSS và JS trong một component:
 
 #### CSS trong Component
-- Inline CSS: Bạn có thể sử dụng thuộc tính style trong JSX để áp dụng CSS trực tiếp cho một phần tử. Điều này cho phép bạn chỉ định các thuộc tính CSS như color, background, font-size, v.v.
+***Inline CSS***: Bạn có thể sử dụng thuộc tính style trong JSX để áp dụng CSS trực tiếp cho một phần tử. Điều này cho phép bạn chỉ định các thuộc tính CSS như color, background, font-size, v.v.
 
 Ví dụ:
 
@@ -242,7 +242,7 @@ export default MyComponent;
 ```
 Trong ví dụ trên, chúng ta đã sử dụng thuộc tính style để áp dụng CSS cho phần tử <div>.
 
-- CSS Modules: CSS Modules là một phương pháp để quản lý CSS trong React bằng cách tạo ra các lớp CSS có phạm vi cục bộ cho mỗi component. CSS Modules cho phép bạn gắn kết các lớp CSS với các thành phần một cách an toàn và hạn chế tác động của CSS đến các thành phần khác.
+***CSS Modules***: CSS Modules là một phương pháp để quản lý CSS trong React bằng cách tạo ra các lớp CSS có phạm vi cục bộ cho mỗi component. CSS Modules cho phép bạn gắn kết các lớp CSS với các thành phần một cách an toàn và hạn chế tác động của CSS đến các thành phần khác.
 
 Để sử dụng CSS Modules, bạn cần cài đặt các loader và cấu hình tương ứng trong công cụ xây dựng của dự án React. Sau đó, bạn có thể import CSS và sử dụng các lớp CSS như các đối tượng trong JSX.
 
@@ -259,7 +259,7 @@ export default MyComponent;
 ```
 Trong ví dụ trên, chúng ta đã import CSS từ tệp MyComponent.module.css và sử dụng lớp CSS container từ CSS Modules để áp dụng cho phần tử <div>.
 
-- Thư viện CSS-in-JS: React cung cấp các thư viện CSS-in-JS như styled-components hoặc Emotion, cho phép bạn viết CSS trong mã JavaScript của thành phần.
+***Thư viện CSS-in-JS***: React cung cấp các thư viện CSS-in-JS như styled-components hoặc Emotion, cho phép bạn viết CSS trong mã JavaScript của thành phần.
 
 Ví dụ (sử dụng styled-components):
 
