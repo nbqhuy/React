@@ -20,7 +20,7 @@ ReactJS là một thư viện JavaScript mã nguồn mở được sử dụng �
 
 ### Cách React hoạt động?
 
-### Rendering Elements (Hiển thị các phần tử)
+#### Rendering Elements (Hiển thị các phần tử)
 
 React hoạt động bằng cách xây dựng và cập nhật DOM (Document Object Model) dựa trên các phần tử (elements). Mỗi phần tử trong React là một đại diện cho một phần tử UI cụ thể. Khi các phần tử thay đổi, React sẽ cập nhật DOM để phản ánh các thay đổi đó.
 
@@ -42,7 +42,7 @@ Trong ví dụ trên, chúng ta đã tạo một phần tử React <h1>Hello, Re
 
 Virtual DOM là một bản sao của DOM thực sự được React sử dụng để tính toán các thay đổi cần được áp dụng cho DOM. Thay vì thực hiện các thay đổi trực tiếp trên DOM thật, React so sánh Virtual DOM với DOM trước và sau khi thay đổi để xác định các thay đổi cần được áp dụng. Việc sử dụng Virtual DOM giúp tăng hiệu suất và tối ưu quá trình render.
 
-### JSX là gì?
+#### JSX là gì?
 
 JSX (JavaScript XML) là một phần mở rộng cú pháp của JavaScript cho phép viết mã HTML tương tự như cú pháp XML trong mã JavaScript. JSX giúp kết hợp mã JavaScript và mã HTML trong cùng một file, giúp việc tạo và quản lý các component dễ dàng hơn.
 
@@ -55,7 +55,17 @@ const element = <h1>Hello, JSX!</h1>;
 ```
 Trong ví dụ trên, chúng ta đã sử dụng JSX để tạo một phần tử React <h1>Hello, JSX!</h1>. JSX sẽ được biên dịch thành mã JavaScript thông qua Babel để sử dụng trong ứng dụng React.
 
-### Cấu trúc thư mục
+#### Hoạt động tổng quan
+Khi một ứng dụng React được chạy, React sẽ thực hiện các bước sau:
+
+Xây dựng cây thành phần: React xây dựng một cây thành phần dựa trên các thành phần được khai báo trong ứng dụng.
+Tạo cây Virtual DOM: React tạo một cây Virtual DOM dựa trên cây thành phần để lưu trữ trạng thái hiện tại của giao diện người dùng.
+Render: React sử dụng hàm ReactDOM.render() để gắn kết cây Virtual DOM vào nút gốc trong DOM thực tế.
+Xử lý sự kiện và cập nhật: Khi người dùng tương tác hoặc có các sự kiện xảy ra, React sẽ cập nhật cây Virtual DOM và so sánh với cây Virtual DOM cũ để xác định các thay đổi. Các thay đổi này sẽ được áp dụng vào DOM thực tế.
+Thực hiện lại bước 4 khi có thay đổi: Khi có thay đổi trong cây Virtual DOM, React sẽ thực hiện lại bước 4 để cập nhật DOM thực tế.
+Qua các bước trên, React giúp chúng ta xây dựng và duy trì một giao diện người dùng linh hoạt và hiệu quả.
+
+#### Cấu trúc thư mục
 
 - **Thư mục Assets:** Thư mục này chứa các tệp hình ảnh và tệp CSS để sử dụng trong dự án. Chúng ta có thể lưu trữ các kiểu CSS toàn cục ở đây.
     
