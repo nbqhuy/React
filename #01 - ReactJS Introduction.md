@@ -36,7 +36,7 @@ const element = <h1>Hello, React!</h1>;
 
 ReactDOM.render(element, document.getElementById('root'));
 ```
-Trong ví dụ trên, chúng ta đã tạo một phần tử React <h1>Hello, React!</h1> và gắn kết nó vào nút có id là root trong DOM.
+Trong ví dụ trên, chúng ta đã tạo một phần tử React `<h1>Hello, React!</h1>` và gắn kết nó vào nút có id là root trong DOM.
 
 #### Virtual DOM (DOM ảo)
 
@@ -53,7 +53,7 @@ import React from 'react';
 
 const element = <h1>Hello, JSX!</h1>;
 ```
-Trong ví dụ trên, chúng ta đã sử dụng JSX để tạo một phần tử React "<h1>Hello, JSX!</h1>" JSX sẽ được biên dịch thành mã JavaScript thông qua Babel để sử dụng trong ứng dụng React.
+Trong ví dụ trên, chúng ta đã sử dụng JSX để tạo một phần tử React <h1>Hello, JSX!</h1> JSX sẽ được biên dịch thành mã JavaScript thông qua Babel để sử dụng trong ứng dụng React.
 
 #### Hoạt động tổng quan
 Khi một ứng dụng React được chạy, React sẽ thực hiện các bước sau:
