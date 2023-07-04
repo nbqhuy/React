@@ -52,8 +52,9 @@ Ví dụ về viết JSX:
 import React from 'react';
 
 const element = <h1>Hello, JSX!</h1>;
-Trong ví dụ trên, chúng ta đã sử dụng JSX để tạo một phần tử React <h1>Hello, JSX!</h1>. JSX sẽ được biên dịch thành mã JavaScript thông qua Babel để sử dụng trong ứng dụng React.
 ```
+Trong ví dụ trên, chúng ta đã sử dụng JSX để tạo một phần tử React <h1>Hello, JSX!</h1>. JSX sẽ được biên dịch thành mã JavaScript thông qua Babel để sử dụng trong ứng dụng React.
+
 ### Cấu trúc thư mục
 
 - **Thư mục Assets:** Thư mục này chứa các tệp hình ảnh và tệp CSS để sử dụng trong dự án. Chúng ta có thể lưu trữ các kiểu CSS toàn cục ở đây.
