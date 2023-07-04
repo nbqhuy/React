@@ -240,7 +240,7 @@ const MyComponent = () => {
 
 export default MyComponent;
 ```
-Trong ví dụ trên, chúng ta đã sử dụng thuộc tính style để áp dụng CSS cho phần tử <div>.
+Trong ví dụ trên, chúng ta đã sử dụng thuộc tính style để áp dụng CSS cho phần tử <div>
 
 ***CSS Modules***: CSS Modules là một phương pháp để quản lý CSS trong React bằng cách tạo ra các lớp CSS có phạm vi cục bộ cho mỗi component. CSS Modules cho phép bạn gắn kết các lớp CSS với các thành phần một cách an toàn và hạn chế tác động của CSS đến các thành phần khác.
 
