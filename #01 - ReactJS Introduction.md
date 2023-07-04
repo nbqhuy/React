@@ -240,7 +240,7 @@ const MyComponent = () => {
 
 export default MyComponent;
 ```
-Trong ví dụ trên, chúng ta đã sử dụng thuộc tính style để áp dụng CSS cho phần tử <div>
+Trong ví dụ trên, chúng ta đã sử dụng thuộc tính style để áp dụng CSS cho phần tử ```<div>```.
 
 ***CSS Modules***: CSS Modules là một phương pháp để quản lý CSS trong React bằng cách tạo ra các lớp CSS có phạm vi cục bộ cho mỗi component. CSS Modules cho phép bạn gắn kết các lớp CSS với các thành phần một cách an toàn và hạn chế tác động của CSS đến các thành phần khác.
 
@@ -257,7 +257,7 @@ const MyComponent = () => {
 
 export default MyComponent;
 ```
-Trong ví dụ trên, chúng ta đã import CSS từ tệp MyComponent.module.css và sử dụng lớp CSS container từ CSS Modules để áp dụng cho phần tử <div>.
+Trong ví dụ trên, chúng ta đã import CSS từ tệp MyComponent.module.css và sử dụng lớp CSS container từ CSS Modules để áp dụng cho phần tử ```<div>```.
 
 ***Thư viện CSS-in-JS***: React cung cấp các thư viện CSS-in-JS như styled-components hoặc Emotion, cho phép bạn viết CSS trong mã JavaScript của thành phần.
 
@@ -279,7 +279,7 @@ const MyComponent = () => {
 
 export default MyComponent;
 ```
-Trong ví dụ trên, chúng ta đã sử dụng styled-components để tạo một component <StyledDiv> và định nghĩa CSS cho nó bằng cách sử dụng template literals.
+Trong ví dụ trên, chúng ta đã sử dụng styled-components để tạo một component ```<StyledDiv>``` và định nghĩa CSS cho nó bằng cách sử dụng template literals.
 
 #### JavaScript trong Component
 JavaScript có thể được sử dụng trong một component React bằng cách viết mã JavaScript bình thường trong hàm render hoặc trong các phương thức và lifecycle hooks của component. Bạn có thể sử dụng JavaScript để thực hiện các tính toán, điều khiển điều kiện hiển thị, hoặc tương tác với các dữ liệu và sự kiện.
