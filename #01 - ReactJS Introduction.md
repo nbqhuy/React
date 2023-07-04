@@ -20,9 +20,23 @@ ReactJS là một thư viện JavaScript mã nguồn mở được sử dụng �
 
 ### Cách React hoạt động?
 
-#### Rendering Elements (Phần tử render)
+### Rendering Elements (Hiển thị các phần tử)
 
 React hoạt động bằng cách xây dựng và cập nhật DOM (Document Object Model) dựa trên các phần tử (elements). Mỗi phần tử trong React là một đại diện cho một phần tử UI cụ thể. Khi các phần tử thay đổi, React sẽ cập nhật DOM để phản ánh các thay đổi đó.
+
+Để hiển thị một thành phần React, chúng ta sử dụng hàm ReactDOM.render(). Hàm này nhận vào một phần tử React và một nút gốc trong DOM để gắn kết phần tử React đó.
+
+Ví dụ:
+
+``` jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const element = <h1>Hello, React!</h1>;
+
+ReactDOM.render(element, document.getElementById('root'));
+```
+Trong ví dụ trên, chúng ta đã tạo một phần tử React <h1>Hello, React!</h1> và gắn kết nó vào nút có id là root trong DOM.
 
 #### Virtual DOM (DOM ảo)
 
